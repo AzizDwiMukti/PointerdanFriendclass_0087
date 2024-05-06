@@ -19,6 +19,8 @@ int main() {
 
 	mahasiswa* pMhs = &mhs; //pointer Deferences refMhs
 	pMhs->nim = 3; //Arrow Operator
-	pMhs ->show();
+	pMhs ->showNim();
 	return 0;
+
+
 }
