@@ -1,6 +1,3 @@
-// PointerdanFriendclass2_0087.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 using namespace std;
 
@@ -16,5 +13,10 @@ public:
 
 int main()
 {
+	mahasiswa *mhs = new mahasiswa{ 1 }; // pointer Object mhs
+	mhs->nim = 2;
+	mhs->showNim();
+	delete mhs;
+	return 0;
 
 }
